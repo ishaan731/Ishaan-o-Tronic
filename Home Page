@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+  <head>
+<title>Home page</title>
+    <style type="text/css">
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat',sans-serif;
+}
+body{
+	background-repeat:no-repeat;
+	background-size: cover;
+  text-decoration: none;
+  background-image: url(https://lh3.googleusercontent.com/LbYDEfUx4tODYIswVpi-hlcwZZmM9Vu1uXQPh_G5BJG-xTAHLh07yJOxxr5o1Z6wQU5h8PH7VRwUh1E_V85obgUpqA7PySauNYt6t4Z2HZcl-M5tMR6K-TREwrknA_8A7b6ZhpSSNokG1bx-opewecQUAO94zZ_4HKVDYVNuWK7MFVmzoJ-3GCeSUjSjex_EOgCLkUmwkMd-xIquowiKT6WTqKhTewuywhSoaDfO3lGJaDJSYm3X2XJsZbZ8Qi0PGz2SHa8KFh4ywY6Q45Y709durWNb0zcCDSObmPp0sr7dXt4fy0Mdumduu8ov1_oPyjTJaNH6KJ_mGbL1HVER4ofleNTTLmj63lw1PnoFoJKamrpWgQWGlUoSyVw4hWQlW6tpnTWK5057zXfyPu_h50hNtQmMNsGdS5cmemX4GC2deFfs2m9L0Zq2EbLSjUpg52iBgMnKUWrTYmCdTWF5EaPHbyBlI1_V6-cm9Aa4bHk5DBvvNGBXLZIjpt7wAA2EmYhT57a740kv0-JTRZjez5IYEytpbsx6rfGVboMO1h0eMx_ovmL0ZUBba2TSLq3mCfqC5vadaM5WCgZg0La2zhhFAa42B4YGhXvsI0u4H7F-mYj4F19KDZFDKiZW87jl58MdU61pNRoJftQqXOWkpv-ghLLi1ntijX6j9wKp4CJLADJm847x_zY_i2crHw=w860-h625-no?authuser=0);
+  background-repeat: no-repeat;
+  background-size: 1390px 700px;
+
+   opacity: 0.7;
+}
+nav{
+  background: #151515;
+  padding: 5px 40px;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li{
+  padding: 15px 0;
+  cursor: pointer;
+}
+nav ul li.items{
+  position: relative;
+  width: auto;
+  margin: 0 16px;
+  text-align: center;
+  order: 3;
+}
+nav ul li.items:after{
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 5px;
+  height: 2px;
+  width: 100%;
+  background: #33ffff;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+nav ul li.items:hover:after{
+  opacity: 1;
+  bottom: 8px;
+}
+nav ul li.logo{
+  flex: 1;
+  color: white;
+  font-size: 23px;
+  font-weight: 600;
+  cursor: default;
+  user-select: none;
+}
+nav ul li a{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  transition: .4s;
+}
+nav ul li:hover a{
+  color: cyan;
+}
+nav ul li i{
+  font-size: 23px;
+}
+nav ul li.btn{
+  display: none;
+}
+nav ul li.btn.hide i:before{
+  content: '\f00d';
+}
+@media all and (max-width: 900px){
+  nav{
+    padding: 5px 30px;
+  }
+  nav ul li.items{
+    width: 100%;
+    display: none;
+  }
+  nav ul li.items.show{
+    display: block;
+  }
+
+
+
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+<li class="logo">Ishaan-o-Tronics</li>
+<li class="items"><a href="#">Home</a></li>
+<li class="items"><a href="#">Projects</a></li>
+
+<li class="btn"><a href="#"></a></li>
+</ul>
+</nav>
+    <p></p>
+  </body>
+</html>
