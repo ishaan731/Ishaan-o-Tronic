@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+  <head>
+<title>Links page</title>
+    <style type="text/css">
+
+*{
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat',sans-serif;
+  text-decoration: none;
+
+   font-size: 20px;
+}
+.zzz{
+  margin: 30px;
+}
+
+body{
+	background-repeat:no-repeat;
+	background-size: cover;
+  text-decoration: none;
+  background-image: url(https://lh3.googleusercontent.com/u1tLuJzoGlcN7UV5uz3B53XMFgdha3v8hSXs_Brf-CwNXzd8J9uIerX2RbF0SdI1MV9MVABhb_n9wqtFTtrdraDbgzZJxdyD1ZcLBUktAJ0YsECoGjbOSiKObs87BXmISx45anwbfSBkyplmeZhCicxBoHXqn4paGywi6xBqaFUCM_Ti2RWQZWKrC8I-S6P3_oBVEX4Vlr22aC0DS1opnQFg7841BY8gSNfYq231jAor6SoM8L30friGsHlO1W38CGyxtOgHOlIxA28iAx9zgJTjIAnobTXDZY856bmX1-off3ehxX-EGyPA5qH-WYTRiB0wFE_AIf0R_jjTcsdsQglEedVBHI4x5QVp2gaPSkS-NdYbs-7aL7hOpVqCFDDqTLjTt8Ou3GbSGeZ29DnrPGOBqg4OvWXTgkxnaohx9RMPRgm6IYwcVdNeSNBJbi0BN-IewmiA1yZiJYwCyqnOwol3zg3mWFuAS6QVDAzKwcPw1vYI_K3sZNScCW4fsVV5pWMIoVhmugOTC7Al0sciTK4lCF8U_Cha4KkWcfqJaFOCw0TZmPLaTvJ8s6n-l7kHfm4c-vntzKIZ7FhJt3_WBsaSF8GnDFSkE4d5jIXF-9dnTnqfzPX1QX0S8QphIMNbRfn6Zc4uh76y-9cx28JBgB64wfCq5iunmT6DCS4Y_cjFgMNLCDy_TM-LgszVvg=w860-h625-no?authuser=0);
+  background-repeat: no-repeat;
+  background-size: 1380px 1000px;
+
+   opacity: 0.7;
+}
+nav{
+  background: #151515;
+  padding: 5px 40px;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li{
+  padding: 15px 0;
+  cursor: pointer;
+}
+nav ul li.items{
+  position: relative;
+  width: auto;
+  margin: 0 16px;
+  text-align: center;
+  order: 3;
+}
+nav ul li.items:after{
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 5px;
+  height: 2px;
+  width: 100%;
+  background: #33ffff;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+nav ul li.items:hover:after{
+  opacity: 1;
+  bottom: 8px;
+}
+nav ul li.logo{
+  flex: 1;
+  color: white;
+  font-size: 23px;
+  font-weight: 600;
+  cursor: default;
+  user-select: none;
+}
+nav ul li a{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  transition: .4s;
+}
+nav ul li:hover a{
+  color: cyan;
+}
+nav ul li i{
+  font-size: 23px;
+}
+nav ul li.btn{
+  display: none;
+}
+@media all and (max-width: 900px){
+  nav{
+    padding: 5px 30px;
+  }
+  nav ul li.items{
+    width: 100%;
+    display: none;
+  }
+  nav ul li.items.show{
+    display: block;
+  }
+
+b{
+  font-size: 30px;
+}
+b{
+  color:#2dbe9d;
+}
+</style>
+</head>
+<body>
+<nav>
+<ul>
+<li class="logo">All projects</li>
+<li class="items"><a href="#">Home</a></li>
+</ul>
+</nav>
+<div class="zzz">
+<br>
+1. <b><a href="#">Seedobot</a></b><br>
+<q>The bot that can save us all from deforestation</q><br>
+<br>
+2. <b><a href="#">Humifan</a></b><br>
+<q>Machine thet can save humans from the perils of heat without wasting more energy.</q><br>
+<br>
+3.<b> <a href="#">Blindaid</a></b><br>
+<q>A gadget that can guide the way of blind people on the road</q><br>
+<br>
+4.<b><a href="">Deadly Sprite</a></b><br>
+<q>A game that increases focus level of children</q><br>
+</div>
+</body>
+</html>
