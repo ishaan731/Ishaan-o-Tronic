@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+
+  <head>
+<title>Links page</title>
+    <style type="text/css">
+
+*{
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat',sans-serif;
+  text-decoration: none;
+  color:black;
+
+   font-size: 20px;
+}
+.zzz{
+  margin: 30px;
+}
+
+body{
+  background-repeat:no-repeat;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url(https://github.com/ishaan731/Ishaan-o-Tronics/blob/master/lights11.png?raw=true);
+  background-size: 1850px 1300px;
+ 
+   opacity: 0.7;
+}
+nav{
+  background: #151515;
+  padding: 5px 40px;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li{
+  padding: 15px 0;
+  cursor: pointer;
+}
+nav ul li.items{
+  position: relative;
+  width: auto;
+  margin: 0 16px;
+  text-align: center;
+  order: 3;
+}
+nav ul li.items:after{
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 5px;
+  height: 2px;
+  width: 100%;
+  background: #33ffff;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+nav ul li.items:hover:after{
+  opacity: 1;
+  bottom: 8px;
+}
+nav ul li.logo{
+  flex: 1;
+  color: white;
+  font-size: 23px;
+  font-weight: 600;
+  cursor: default;
+  user-select: none;
+}
+nav ul li a{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  transition: .4s;
+}
+nav ul li:hover a{
+  color: cyan;
+}
+nav ul li i{
+  font-size: 23px;
+}
+nav ul li.btn{
+  display: none;
+}
+@media all and (max-width: 900px){
+  nav{
+    padding: 5px 30px;
+  }
+  nav ul li.items{
+    width: 100%;
+    display: none;
+  }
+  nav ul li.items.show{
+    display: block;
+  }
+</style>
+</head>
+<body>
+<nav>
+<ul>
+<li class="logo">About Me</li>
+<li class="items"><a href="https://ishaan731.github.io/Ishaan-o-Tronics/Home%20Page.html">Home</a></li>
+</ul>
+</nav>
+
+<b>About Me!</b>
+<br><p>Experimenting with science is my passion. Exploring the robotic and electronic principles gives me ample opportunities</p>
+<p>to express my ideas and create working models for innovative solutions. A hardcore believer that- “Life is Science and</p>
+<p>Science is Life!”</p>
+<br><p>Ishaan Kapur </p>
+<p>Middle School</p>
+<p>Amity International School</p>
+</body>
+</html>
+
+ 
